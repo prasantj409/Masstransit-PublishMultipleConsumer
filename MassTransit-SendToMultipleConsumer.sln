@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masstransit.Publisher", "Masstransit.Publisher\Masstransit.Publisher.csproj", "{F529DC15-5BCD-44BF-ABB8-C7B8CF52E41E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Masstransit.Publisher", "Masstransit.Publisher\Masstransit.Publisher.csproj", "{F529DC15-5BCD-44BF-ABB8-C7B8CF52E41E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masstransit.Receiver", "Masstransit.Receiver\Masstransit.Receiver.csproj", "{1856CC71-AE34-474E-A220-D4426035D776}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Masstransit.Receiver", "Masstransit.Receiver\Masstransit.Receiver.csproj", "{1856CC71-AE34-474E-A220-D4426035D776}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masstransit.Receiver.Management", "Masstransit.Receiver.Management\Masstransit.Receiver.Management.csproj", "{786D4ADB-70E9-4E4E-9361-168C13D5CCCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Masstransit.Receiver.Management", "Masstransit.Receiver.Management\Masstransit.Receiver.Management.csproj", "{786D4ADB-70E9-4E4E-9361-168C13D5CCCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masstransit.Receiver.Sales", "Masstransit.Receiver.Sales\Masstransit.Receiver.Sales.csproj", "{EA5D8128-FD23-45F0-A393-3B1E6ACFFB1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Masstransit.Receiver.Sales", "Masstransit.Receiver.Sales\Masstransit.Receiver.Sales.csproj", "{EA5D8128-FD23-45F0-A393-3B1E6ACFFB1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Masstransit.Message", "Masstransit.Message\Masstransit.Message.csproj", "{907600FE-165B-4EBE-B93F-AE995C2661A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masstransit.Receiver.Notification", "Masstransit.Receiver.Notification\Masstransit.Receiver.Notification.csproj", "{E42B48A3-8E06-41D7-8E6C-986E164FEB67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{EA5D8128-FD23-45F0-A393-3B1E6ACFFB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA5D8128-FD23-45F0-A393-3B1E6ACFFB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA5D8128-FD23-45F0-A393-3B1E6ACFFB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907600FE-165B-4EBE-B93F-AE995C2661A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907600FE-165B-4EBE-B93F-AE995C2661A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907600FE-165B-4EBE-B93F-AE995C2661A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907600FE-165B-4EBE-B93F-AE995C2661A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42B48A3-8E06-41D7-8E6C-986E164FEB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42B48A3-8E06-41D7-8E6C-986E164FEB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42B48A3-8E06-41D7-8E6C-986E164FEB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42B48A3-8E06-41D7-8E6C-986E164FEB67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,14 +1,14 @@
 ﻿using MassTransit;
 using System;
 
-namespace Masstransit.Receiver.Sales
+namespace Masstransit.Receiver.Notification
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Title = "Sales consumer";
-            Console.WriteLine("SALES");
+            Console.Title = "Notification consumer";
+            Console.WriteLine("NOTIFICATION");
             RunMassTransitReceiver();
         }
 
@@ -22,9 +22,9 @@ namespace Masstransit.Receiver.Sales
                     settings.Username("guest");
                 });
 
-                rabbit.ReceiveEndpoint("mycompany.domains.queues.events.sales", conf =>
+                rabbit.ReceiveEndpoint("mycompany.domains.queues.events.notification", conf =>
                 {
-                    conf.Consumer<CustomerRegisteredConsumerSls>();
+                    conf.Consumer<CustomerRegisteredConsumerNotification>();
                 });
             });
 
